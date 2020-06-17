@@ -4,7 +4,7 @@ require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'pry'
 
-SERVER_URL  = 'http://www.myrapname.com/'
+SERVER_URL  = 'https://www.name-generator.org.uk/fantasy/'
 WEB_BROWSER ||= :chrome
 
 # Local development

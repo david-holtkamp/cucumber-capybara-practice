@@ -1,5 +1,5 @@
-Given(/^I am on the homepage$/) do
-  find('h1', :text => "Welcome to MyRapWebsite.com")
+Given(/^I am on the fantasy name page$/) do
+  find('h2', :text => "Name Generator")
 end
 
 Then(/^I see the text "(.*?)"$/) do |text|

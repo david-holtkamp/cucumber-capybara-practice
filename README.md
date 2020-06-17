@@ -10,12 +10,13 @@
 6. Create the tests below in order.  You should be able to create any tests by building on the
    files that are already set up in the project.
 
-Homepage='http://www.myrapname.com/'
+Homepage='https://www.name-generator.org.uk/fantasy/'
 
 ### Tests
-Write an automated test to validate each of the following:
-1. The input fields exist
-2. A negative scenario using the input fields
-3. Input data into the fields
-4. Submit a name for male with a nickname and validate that a new name has been prepended to the list
-5. Submit twice for a female with a last initial and validate that a new name has been prepended to the list
+Write automated test scenarios to validate each of the following:
+1. That you are on the expected page for the Fantasy Name Generator
+2. Select only one category and submit the form
+3. Validate that the selected category from scenario 2 is present in each entry of the list of names
+4. Use the "Suggest" button and validate that a human name has been added to the human name input field. Submit the form.
+5. Validate that the suggested human name (either first or last name) from scenario 4 is present at least once in the list of names
+6. Submit the form with a specified number of names and validate that the correct number of suggestions populates
