@@ -4,7 +4,6 @@ Scenario: View Fantasy Name Generator home page
   Given   I travel to the Fantasy Name Generator page
   Then    I expect to be on the Fantasy Name Generator page
 
-
 Scenario: Submit form with specific number of names and generate that amount of names
   Given   I am on the Fantasy Name Generator page
   When    I input a number within specified range of examples of each type I would like to generate
