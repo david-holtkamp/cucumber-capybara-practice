@@ -70,6 +70,6 @@ Then("I should see names generated incorporating the suggested first or last nam
   random_first_name = page.find('h1', text: '').text.split.last(2).first.to_s.downcase
   random_last_name = page.find('h1', text: '').text.split.last(2).last.to_s.downcase
     all('.name_heading').find do |name_heading|
-      return true if name_heading.text.include?(random_first_name) || name_heading.text.include?(random_last_name)
+      name_heading.text.include?(random_first_name) || name_heading.text.include?(random_last_name)
     end
 end
